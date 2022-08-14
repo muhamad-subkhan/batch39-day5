@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="icon" href="/assets/images/logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/style/navbar.css">
+    <link rel="stylesheet" href="/assets/style/my-project.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav>
+        <a class="nav-img" href="/index.html"><img src="/assets/images/logo.png" alt=""></a>
+        <ul class="nav-left">
+            <li><a class="nav-menu" href="/index.html">Home</a></li>
+            <li><a class="nav-menu" href="/my-project.html" style="font-weight: bold;">My Project</a></li>
+        </ul>
+        <a class="nav-btn" href="/contact-me.html">Contact Me</a>
+    </nav>
+
+
+    <form onsubmit="addBlog(event)">
+        <div class="card">
+            <h1>ADD MY PROJECT</h1>
+
+
+            <div class="div">
+                <label for="inputName">Project Name</label>
+                <input type="text" id="inputName">
+            </div>
+
+            <div class="date div">
+                <div class="date-left">
+                    <label for="inputStart">Start Date</label>
+                    <input type="date" id="inputStart">
+                </div>
+                <div class="date-right">
+                    <label for="inputEnd">End Date</label>
+                    <input type="date" id="inputEnd">
+                </div>
+            </div>
+
+            <div class="div">
+                <label for="deskrip">Description</label>
+                <textarea id="deskrip" cols="1" rows="5"></textarea>
+            </div>
+
+            <div class="div">
+                <label for="checkBox">Technologies</label>
+                <div class="chk" >
+                    <div class="chkLeft" >
+                        <div>
+                            <input type="checkbox" id="inputNode" value="fa-node-js">
+                            <label class="fontTech" for="inputNode">Node Js</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="inputReact" value="fa-react">
+                            <label class="fontTech" for="inputReact">React Js</label>
+                        </div>
+                    </div>
+
+                    <div class="chkRight">
+
+                        <div>
+                            <input type="checkbox" id="inputGo" value="fa-golang">
+                            <label class="fontTech" for="inputGo">Golang</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="inputAngular" value="fa-angular">
+                            <label class="fontTech" for="inputAngular">Angular</label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+                <div class="div">
+                    <p class="label">Upload Image</p>
+                    <label class="inputImage" for="inputImage"><p class="imageChoose">CHOOSE</p> <img src="/assets/images/outline_attach_file_black_24dp.png" alt="_Image" style="height: 24px;"></label>       
+                        <input type="file" id="inputImage" hidden>
+                </div>
+
+                <div class="btn">
+                    <button type="submit" class="button">Submit</button>
+                </div>
+
+        </div>
+    </form>
+
+
+
+    <section>
+        <h2>MY PROJECT</h2>
+        <div class="cardPost" id="blog">
+            
+            <!-- DYNAMIC CONTENT -->
+            
+            <!-- <div class="cardProject">
+                <img class="imgPost" src="/assets/images/kucing.webp" alt="">
+                <a class="projectTitle" href="/project-detail.html">Project Title</a>
+                
+                <p class="duration">Durasi: 3 bulan</p>
+                <div>
+                    <p class="contentProject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque laudantium unde, quia atque nihil! Harum facere earum sint, error in esse dignissimos voluptate inventore, itaque, nihil recusandae placeat quasi.
+
+                    </p>
+                </div>
+
+                <div>
+                    <div class="iconProject">
+                        <i class="fa-brands fa-node-js"></i> 
+                        <i class="fa-brands fa-react"></i> 
+                        <i class="fa-brands fa-golang"></i>
+                        <i class="fa-brands fa-angular"></i>
+                    </div>
+                </div>
+
+                <div class="btn-project">
+                    <button class="btnProject">edit</button>
+                    <button class="btnProject">delete</button>
+                </div>
+            </div> -->
+        </div>
+
+    </section>
+
+
+</body>
+<script src="/assets/js/my-project.js"></script>
+
+</html>

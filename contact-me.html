@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="icon" href="/assets/images/logo.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/style/navbar.css">
+    <link rel="stylesheet" href="/assets/style/contact.css">
+
+
+</head>
+<body>
+    <nav>
+        <a class="nav-img" href="/index.html"><img  src="/assets/images/logo.png" alt=""></a>
+            <ul class="nav-left">
+                <li><a class="nav-menu" href="/index.html">Home</a></li>
+                <li><a class="nav-menu" href="/my-project.html">My Project</a></li>
+            </ul>
+        <a class="nav-btn" href="/contact-me.html">Contact Me</a>
+    </nav>
+
+    <form>
+        <h2>GET IN TOUCH</h2>
+
+        <div class="name">
+            <label for="inputName">Name</label><br>
+            <input type="text" id="inputName">
+        </div>
+
+        <div class="phone">
+            <label for="inputPhone">Phone</label><br>
+            <input type="tel" id="inputPhone">
+        </div>
+
+        <div class="email">
+            <label for="inputEmail">Email</label><br>
+            <input type="text" id="inputEmail">
+        </div>
+
+        <div class="subject">
+            <label for="inputSubject">Subject</label><br>
+            <select name="" id="inputSubject">
+                <option></option>
+                <option>Frontend</option>
+                <option>Backend</option>
+                <option>Fullstack</option>
+            </select>
+        </div>
+
+        <div class="message">
+            <label for="text-area">Your Message</label><br>
+            <textarea name="" id="text-area" cols="20" rows="5"></textarea>
+        </div>
+        <div class="btn">
+            <button type="submit" onclick="data()">Submit</button>
+        </div>
+        </div>
+    </form>
+
+    
+</body>
+<Script src="/assets/js/contact-me.js"></Script>
+</html>

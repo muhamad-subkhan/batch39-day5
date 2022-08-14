@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+form{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    width: 50%;
+    padding: 0px 25px;
+    text-align: start;
+}
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 55px 0px;
+    font-weight: bolder;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#inputName{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(213,217,221,255);
+    box-shadow: 0px 3px 9px grey;
+}
+
+.date{
+    display: flex;
+}
+
+.date-left{
+    flex: 50%;
+    margin-right: 20px;
+}
+
+.date-right{
+    flex: 50%;
+}
+
+#inputStart, #inputEnd{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(213,217,221,255);
+    box-shadow: 0px 3px 9px grey;
+}
+
+#deskrip{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(213,217,221,255);
+    box-shadow: 0px 3px 9px grey;
+    resize: none;
+}
+
+.div{
+    margin-top: 15px;
+}
+
+.chk{
+    display: flex;
+}
+.chkLeft{
+   flex: 40%;
+}
+.chkRight{
+    flex: 60%;
+}
+
+.fontTech{
+    color: grey;
+    font-size: 18px;
+    margin-left: 5px;
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+    box-shadow: 0px 1px 9px grey;
+    cursor: pointer;
+}
+        /* ATTACH FILE */
+.inputImage{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgba(213,217,221,255);
+    box-shadow: 0px 3px 9px grey;
+}
+.imageChoose{
+    background-color: lightgray;
+    color: darkgrey;
+    padding: 5px;
+    border-radius: 5px;
+}
+        /* button */
+.btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.button{
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 0;
+}
+
+.button:hover{
+    background-color: orangered;
+}
+
+
+    /* Card post*/
+
+section{
+    background-color: rgba(244,243,243,255);
+}
+
+h2{
+    text-align: center;
+    padding: 55px 0px;
+}
+
+.cardPost{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+
+}
+
+.cardProject{
+    background-color: white;
+    width: 25%;
+    height: max-content;
+    padding: 10px;
+    margin:25px;
+    box-shadow: 0px 3px 9px grey;
+    border-radius: 10px;
+
+}
+.projectTitle{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.duration{
+    margin-top: -1px;
+    color: grey;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contentProject{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imgPost{
+    width: 100%;
+    height: 275px;
+}
+
+.btn-project{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 15px;
+}
+
+.btnProject{
+    width: 45%;
+    background-color: black;
+    color: white;
+    padding: 8px 0px;
+    border-radius: 15px;
+}
+
+
+.iconProject{
+    font-size: 34px;
+}

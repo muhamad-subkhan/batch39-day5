@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(213,217,221,255);
+    margin: 0px;
+}
+
+nav{
+    background-color: rgba(244,243,243,255);
+    display: flex;
+    align-items: center;
+    height: 5vh;
+}
+
+.nav-img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.nav-left{
+    display: flex;
+    flex: 50%;
+    list-style: none;
+}
+
+.nav-menu{
+    color:black;
+    display: flex;
+    text-decoration: none;
+    margin:0px 10px;
+    font-size: 18px;
+}
+
+.nav-menu:hover{
+    border-bottom: 1px solid orangered;
+}
+
+
+.nav-btn{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin-right: 35px;
+    border-radius: 7px;
+}
+
+.nav-btn:hover{
+    background-color: orangered;
+}

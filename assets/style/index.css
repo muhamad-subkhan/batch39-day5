@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.card{
+    background: white;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px grey;
+}
+.card-left{
+    flex: 50%;
+    padding: 55px;
+}
+
+.card-content{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-download{
+
+    margin: 55px 0px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-contact{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 7px 25px;
+    border-radius: 15px;
+    font-size: medium;
+}
+
+.btn-contact:hover{
+    background-color: orangered;
+}
+
+.btn-cv{
+    color: black;
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.img-cv{
+    width:24px;
+    height: 18px;
+    margin-bottom: -2px;
+    margin-left: 5px;
+}
+
+.fa-stack{
+    font-size: 24px;
+}
+.fa-stack:hover{
+    color: orangered;
+}
+
+
+.card-right{
+    flex: 50%;
+}
+
+.card-profile{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0px 1px 9px grey;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.img-profile{
+    width: 100%;
+}
+
+h2, h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+h4{
+    color: grey;
+}
