@@ -60,7 +60,7 @@ function addBlog(event) {
         golang,
         angular,
         image,
-        duration: distanceTime((startDate),(endDate))
+        duration: distanceTime(startDate,endDate)
     }
 
     
@@ -72,7 +72,7 @@ function addBlog(event) {
 
 function renderBlog() {
 
-    console.log(dataBlog)
+    // console.log(dataBlog)
 
     document.getElementById("blog").innerHTML = ""
 
@@ -106,6 +106,8 @@ function renderBlog() {
 }
 
 function distanceTime(startDate, endDate){
+
+
     let start = new Date(startDate)
     let end = new Date(endDate)
 
